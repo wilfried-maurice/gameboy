@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Gamer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>🎮 Inscription Gamer 🎮</h2>
+        <form action="#" method="POST">
+            <label for="pseudo">Pseudo :</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Ex: DarkKnight" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Ex: gamer@email.com" required>
+
+            <label for="platform">Plateforme :</label>
+            <select id="platform" name="platform">
+                <option value="PC">PC</option>
+                <option value="PS5">PlayStation 5</option>
+                <option value="Xbox">Xbox Series X</option>
+                <option value="Switch">Nintendo Switch</option>
+                <option value="Mobile">Mobile</option>
+            </select>
+
+            <label for="games">Jeux favoris :</label>
+            <input type="text" id="games" name="games" placeholder="Ex: Fortnite, Call of Duty, FIFA">
+
+            <label for="bio">À propos de toi :</label>
+            <textarea id="bio" name="bio" placeholder="Décris ton style de jeu..." rows="4"></textarea>
+
+            <button type="submit">🚀 Rejoindre la team</button>
+        </form>
+    </div>
+
+</body>
+</html>
