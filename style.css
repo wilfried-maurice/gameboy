@@ -7,7 +7,7 @@ h1 {
     color: gray
     ;
 }
-
+dd{ color: crimson;body { color: bisque; text-align: center;}}
 body {
     background-color: rgb(246, 243, 243);
     justify-items: center;
